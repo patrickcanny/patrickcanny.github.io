@@ -18,6 +18,11 @@ div {
     width: auto;
 }
 
+.linkedin {
+    height: 22px;
+    width: auto;
+}
+
 .center-text {
     height: 35px;
     text-align: center;
