@@ -5,12 +5,81 @@
 
 body, html {
     height:100%;
+
 }
 div {
     text-align: center;
     font-family: Roboto;
 }
 
+/* phones */
+.main {
+    height: auto;
+    width: 100px;
+}
+
+.icon {
+    height: 12px;
+    width: auto;
+}
+
+.linkedin {
+    height: 13px;
+    width: auto;
+}
+
+.center-text {
+    height: 12px;
+    text-align: center;
+}
+
+.res{
+  margin: 5px;
+}
+
+.panels {
+    position:relative;
+    height: 70%;
+    min-height:70%;
+    width:100%;
+    z-index:1000;
+}
+
+.centered {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0%;
+}
+
+#b {
+    height: 100%;
+    background: #fffafa;
+    padding-bottom: 5%;
+}
+.yt{
+  width: 200px; 
+  height: 100px;
+}
+.pad {
+    padding-top: 4%;
+}
+
+.centeredMain {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20%;
+}
+
+@media only screen and (min-width: 600px) {
+/* tablets */
+}
+
+@media only screen and (min-width: 768px) {
+/* desktop */
 .main {
     height: 250px;
     width: auto;
@@ -99,6 +168,12 @@ div {
 .slide{
     height:400px;
     text-align:center;
+}
+
+.yt{
+  width: 560px; 
+  height: 250px;
+}
 }
 
 .bounce {
