@@ -3,6 +3,9 @@
     font-weight: 400;
 }
 
+.slick-prev:before, .slick-next:before{
+    color: black;
+}
 body, html {
     height:100%;
 
@@ -162,9 +165,6 @@ div {
     height: 400px;
 }
 
-.slick-prev:before, .slick-next:before{
-    color: black;
-}
 .slide{
     height:400px;
     text-align:center;
