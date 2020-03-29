@@ -9,8 +9,9 @@
 
 body, html {
     height:100%;
-
+    width: 100%;
 }
+
 div {
     text-align: center;
     font-family: Roboto;
@@ -20,6 +21,15 @@ div {
 .main {
     height: auto;
     width: 50px;
+}
+
+.leftMain {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 12px;
 }
 
 .icon {
@@ -50,7 +60,7 @@ div {
 }
 
 .centered {
-    width: 250px;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -62,10 +72,12 @@ div {
     background: #fffafa;
     padding-bottom: 5%;
 }
+
 .yt{
   width: 200px; 
   height: 100px;
 }
+
 .pad {
     padding-top: 4%;
 }
@@ -77,6 +89,23 @@ div {
     margin-right: auto;
 }
 
+.photo {
+  width: 200px;
+}
+
+.main-photo {
+  width: 250px;
+}
+
+.thin-photo {
+  width: 100px;
+}
+
+.caption {
+  font-size: 6px;
+  color: lightgrey;
+}
+
 @media only screen and (min-width: 600px) {
 /* tablets */
 }
@@ -86,6 +115,23 @@ div {
 .main {
     height: 100px;
     width: auto;
+}
+
+.caption {
+  font-size: 10px;
+  color: lightgrey;
+}
+
+.photo {
+  width: 600px;
+}
+
+.main-photo {
+  width: 800px;
+}
+
+.thin-photo {
+  width: 300px;
 }
 
 .icon {
@@ -129,6 +175,7 @@ div {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    font-size: 16px;
 }
 
 #a {
@@ -183,6 +230,7 @@ div {
   height: 250px;
 }
 }
+
 
 .bounce {
   margin: 15px;
