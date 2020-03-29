@@ -3,13 +3,10 @@
     font-weight: 400;
 }
 
-.slick-prev:before, .slick-next:before{
-    color: black;
-}
-
 body, html {
     height:100%;
     width: 100%;
+    position: absolute;
 }
 
 div {
