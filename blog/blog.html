@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Patrick Canny Blog</title>
+        <!-- JQUERy -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <!-- SLICK -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.0/slick-theme.css" rel="stylesheet"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.0/slick.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.0/slick.css" rel="stylesheet"/>
+        <link href="styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.projectSlide').slick({
+                infinite:true,
+                autoplay: true,
+                autoplaySpeed: 4000,
+                arrows:true,
+                slidesToShow:1,
+                slidesToScroll:1
+            });
+        })
+        </script>
+      <div id="a" class="panels">
+          <div class="centeredMain">
+              <img class="main" src="../hero.jpg" alt="pat">
+              <h3 class="center-text">Patrick Canny</h3>
+              <h5 class="center-text">Software Engineer</h5>
+              <div class="center-text">
+                  <a href="https://www.github.com/patrickcanny"><img class="icon" src="../icons/github.png" /><a>
+                  <a href="mailto:hirepatrickcanny@gmail.com">
+                    <img class="icon" src="../icons/email.png" />
+                  </a>
+                  <a href="https://www.linkedin.com/in/patrick-canny-191650101/">
+                    <img class="linkedin" src="../icons/linkedin.png" />
+                  </a>
+                  <a href="./posts/pt-report/pt.html">
+                    <h5>Pffifner Traverse Trip Report</h5>
+                  </a>
+              </div>
+          </div>
+      </div>
+    </body>
+</html>
