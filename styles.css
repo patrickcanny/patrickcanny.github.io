@@ -86,6 +86,10 @@ div {
   margin-top: 10%
 }
 
+.full {
+  height: 100%;
+}
+
 .photo {
   width: 200px;
 }
