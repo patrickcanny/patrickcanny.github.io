@@ -5,6 +5,22 @@ body, html {
     position: absolute;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #DCDCDC;
+}
+
 div {
     text-align: center;
     font-family: Roboto, sans-serif;
