@@ -28,6 +28,7 @@ div {
     font-family: Roboto, sans-serif;
 }
 
+
 /* phones */
 .main {
     height: auto;
@@ -212,4 +213,8 @@ div {
   .pad {
       padding-top: 10%;
   }
+}
+
+.autoWidth {
+  width: auto;
 }
