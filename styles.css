@@ -12,11 +12,11 @@ a {
 }
 
 a:link {
-    color: black;
+    color: orange;
 }
 
 a:visited {
-    color: black;
+    color: orange;
 }
 
 a:hover {
@@ -26,6 +26,23 @@ a:hover {
 div {
     text-align: center;
     font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 24px;
+    overflow: hidden;
+    text-align: left;
+}
+li {
+  margin-bottom: 30px;
+}
+.question {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.detail {
+  margin-bottom: 15px;
 }
 
 
